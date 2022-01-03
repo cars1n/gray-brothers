@@ -1,0 +1,38 @@
+h1 {
+    font-family: poppins, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #1F456E;
+    text-align: center;
+}
+
+li {
+    font-family: poppins, sans-serif;
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    width: 400px;
+}
+
+ul {
+    padding-left: 200px;
+    padding-right: auto;
+    margin: 0px;
+    vertical-align: top;
+
+}
+
+li:before {
+    content: "\2713";
+    color: blue;
+}
+
+.center {
+    background-size: 100% 100%;
+    height:300px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
